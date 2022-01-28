@@ -55,7 +55,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="15%"/>
-                                    <segment title="17.5%"/>
+                                    <segment title="18%"/>
                                     <segment title="20%"/>
                                 </segments>
                             </segmentedControl>
@@ -70,6 +70,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="billAmountTextField" destination="nab-b7-Yks" id="Psa-s6-1JF"/>
+                        <outlet property="tipAmountLabel" destination="Fo1-DR-Yzv" id="oLH-dY-O2Z"/>
+                        <outlet property="tipControl" destination="OFc-5u-evV" id="KsI-m8-pYt"/>
+                        <outlet property="totalLabel" destination="ynL-eL-h3G" id="GX6-ff-odA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
